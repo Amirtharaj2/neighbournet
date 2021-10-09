@@ -8,11 +8,14 @@ Please [__fork this repo__](https://help.github.com/articles/fork-a-repo/) and u
 ##### Bangalore India
 
 ##### Team Members
-- Amirtharaj, Product Manager, Full stack Developer
+- Amirtharaj, Product Manager & Full stack Developer
 
  
 #### Project Description
 Provide a clear statement of the challenges/issues/problems/gaps your project engages as well as a brief, high-level description of how your project engages the areas you've identified. What is the value of your approach? Who are the intended users?
+
+Platform for microlending & co-operative funds:
+I believe that "Credit" when done right to the needy one, Wonders happen. When I helped couple of my friends with some amount(without interest) they cheated me. Afterwards I was not willing to help anyone. But, I kind of took it personally to solve this problem, that currently I am working on a project, which would bring in a payment discipline into the society and hence people can help each other without hesitation and build a prosperous and more happier communities.
 
 #### Summary
 Describe the basic functionality of your project. What are the features you were able to implement? What features would you like to implement?
