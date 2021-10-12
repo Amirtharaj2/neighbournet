@@ -15,7 +15,7 @@ function AppTextInput({ icon, ...otherProps }) {
           style={styles.icon}
         />
       )}
-      <TextInput style={styles.text} {...otherProps} />
+      <TextInput style={styles.text} {...otherProps}/>
     </View>
   );
 }
@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
   },
   icon: {
     marginRight: 10,
+    alignSelf: "center"
   },
     text: {
         color: "black",

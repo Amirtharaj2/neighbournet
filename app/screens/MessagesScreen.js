@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import { FlatList, StyleSheet, View } from "react-native";
 
 import Screen from "../components/Screen";
-import ListItem from "../components/ListItem";
-import ListItemSeparator from "../components/ListItemSeparator"
-import ListItemDeleteAction from "../components/ListItemDeleteAction";
+import {ListItem, ListItemSeparator, ListItemDeleteAction} from "../components/lists"
+
 
 const initialMessages = [
   {
@@ -46,16 +45,16 @@ function MessagesScreen(props) {
         )}
         ItemSeparatorComponent={ListItemSeparator}
         refreshing={refreshing}
-        onRefresh={() => {
-          setMessages([
-            {
-              id: 2,
-              title: "T2",
-              description: "D2",
-              image: require("../assets/profile.jpg"),
-            },
-          ]);
-        }}
+        // onRefresh={() => {
+        //   setMessages([
+        //     {
+        //       id: 2,
+        //       title: "T2",
+        //       description: "D2",
+        //       image: require("../assets/profile.jpg"),
+        //     },
+        //   ]);
+        // }}
       />
     </Screen>
   );
