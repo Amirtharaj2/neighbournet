@@ -8,6 +8,7 @@ function Icon({
   backgroundColor = "#000",
   iconColor = "#fff",
 }) {
+
   return (
     <View
       style={{
@@ -19,7 +20,7 @@ function Icon({
         alignItems: "center",
       }}
     >
-      <MaterialCommunityIcons name={name} color={iconColor} size={size * 0.5} />
+    <MaterialCommunityIcons name={name} color={iconColor} size={size * 0.5} />
     </View>
   );
 }

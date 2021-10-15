@@ -10,7 +10,7 @@ function WelcomeScreen () {
     <View style = {styles.logoContainer}>
         <Image
             style = {{
-                width:100,
+                width:100,  
                 height: 100,
                 borderRadius: 15,
             }}

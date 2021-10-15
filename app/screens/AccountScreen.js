@@ -38,7 +38,7 @@ function AccountScreen(props) {
           data={menuItems}
           keyExtractor={(menuItem) => menuItem.title}
           ItemSeparatorComponent={ListItemSeparator}
-          renderItem={({ item }) => (
+          renderItem={({item}) => (
             <ListItem
               title={item.title}
               IconComponent={

@@ -3,7 +3,6 @@ import {
   View,
   StyleSheet,
   Image,
-  TouchableOpacity,
   TouchableHighlight,
 } from "react-native";
 import AppText from "../AppText";
@@ -16,22 +15,23 @@ function ListItem({
   subTitle,
   image,
   IconComponent,
+  notification,
   onPress,
   renderRightActions,
 }) {
   return (
-    <Swipeable renderRightActions={renderRightActions}>
+    // <Swipeable renderRightActions={renderRightActions}>
       <TouchableHighlight underlayColor={colors.light} onPress={onPress}>
         <View style={styles.container}>
           {IconComponent}
-          {image && <Image style={styles.image} source={image} />}
+          { image && <Image style={styles.image} source={image}/> }
           <View style={styles.detailsContainer}>
             <AppText style={styles.title}>{title}</AppText>
             {subTitle && <AppText style={styles.subTitle}>{subTitle}</AppText>}
           </View>
         </View>
       </TouchableHighlight>
-    </Swipeable>
+    // </Swipeable>
   );
 }
 
